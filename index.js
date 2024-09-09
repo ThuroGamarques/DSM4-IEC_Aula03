@@ -76,3 +76,10 @@ app.delete("/users/delete/:id", (req, res) => {
 app.listen(port, () => {
     console.log(`Servidor rodando na porta ${port}`);
 });
+
+const server = app.listen(port, () =>
+{
+
+});
+
+module.exports = {app, server, connection};
